@@ -88,12 +88,10 @@ def startprint():
 
 	print(f'''{Fore.RESET}
 	
-	               ███╗░░██╗██╗░░░██╗░█████╗░██████╗░
-                       ████╗░██║██║░░░██║██╔══██╗██╔══██╗
-                       ██╔██╗██║╚██╗░██╔╝██║░░██║██████╔╝
-                       ██║╚████║░╚████╔╝░██║░░██║██╔═══╝░
-                       ██║░╚███║░░╚██╔╝░░╚█████╔╝██║░░░░░
-                       ╚═╝░░╚══╝░░░╚═╝░░░░╚════╝░╚═╝░░░░░
+─█▀▀█ 　 ░█▄─░█ 　 ░█▀▀█ 　 ─█▀▀█ 　 ─█▀▀█ 　 ░█▀▀█ 
+░█▄▄█ 　 ░█░█░█ 　 ░█─▄▄ 　 ░█▄▄█ 　 ░█▄▄█ 　 ░█▄▄▀ 
+░█─░█ 　 ░█──▀█ 　 ░█▄▄█ 　 ░█─░█ 　 ░█─░█ 　 ░█─░█
+
                        {Fore.CYAN}Unknown v{SELFBOT.__version__} | {Fore.GREEN}Logged in as: {Exeter.user.name}#{Exeter.user.discriminator} {Fore.CYAN}| ID: {Fore.GREEN}{Exeter.user.id}   
                        {Fore.CYAN}Nitro Sniper | {Fore.GREEN}{nitro}
                        {Fore.CYAN}Cached Users: {Fore.GREEN}{len(Exeter.users)}
@@ -852,13 +850,13 @@ async def help(ctx, category=None):
 	await ctx.message.delete()
 	if category is None:
 		embed = discord.Embed(color=0xFF633B, timestamp=ctx.message.created_at)
-		embed.set_author(name=" NVOP SELFBOT|𝙋𝙍𝙀𝙁𝙄𝙓:" +
+		embed.set_author(name=" 𝓝𝗧ヽ ✎_𝐀 𝐍 𝐆 𝐀 𝐀 𝐑♛ SELFBOT|𝙋𝙍𝙀𝙁𝙄𝙓:" +
 		                 str(Exeter.command_prefix),
 		                 icon_url=Exeter.user.avatar_url)
 		embed.set_thumbnail(url=Exeter.user.avatar_url)
 		embed.set_image(
 		    url=
-		    "https://cdn.discordapp.com/attachments/827042350521253919/827904781619036160/d7gprlf-041246c0-f27c-40bd-855c-84340618d6e2.gif"
+		    "https://media.discordapp.net/attachments/830455159654055948/834014880007716914/m10.gif?width=115&height=115"
 		)
 		embed.add_field(name="\uD83E\uDDCA `GENERAL`",
 		                value="Shows all general commands",
